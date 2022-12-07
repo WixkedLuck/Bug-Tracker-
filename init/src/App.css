@@ -1,19 +1,32 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
+  background-color: rgb(32,33,36);
+  color: whitesmoke;
 }
 
-
-
-
+label{
+  margin: 3vh;
+}
+button{
+  margin-left: 2rem !important;
+}
+.sized{
+  width: 30%;
+  margin: auto;
+}
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
-
+.none{
+  color:whitesmoke;
+  text-align: center;
+  margin: auto;
+}
 .card {
   padding: 2em;
 }
